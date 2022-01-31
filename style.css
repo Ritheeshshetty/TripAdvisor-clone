@@ -1,0 +1,120 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: white;
+  margin: 0 6vw;
+  padding-top: 150px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+  font-size: 180%;
+  margin-bottom: 0;
+}
+.main-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: flex;
+  justify-content: flex-end;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+.lists {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 100%;
+  margin: 14px 0;
+}
+.lists li {
+  border: 1.9px solid black;
+  border-radius: 8px;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 12px;
+  margin: 4px;
+  width: 10rem;
+}
+
+.lists li a {
+  text-decoration: none;
+  color: black;
+}
+
+.not-main-image {
+  display: flex-right;
+  justify-content: flex-end;
+  height: 24px;
+  float: right;
+}
+
+.not-main-image:hover {
+  color: white;
+  -webkit-filter: invert(100%) !important;
+}
+
+.buttons {
+  display: flex;
+  justify-content: right;
+  margin: 5px;
+  padding: 8px;
+  border: 0;
+  border-radius: 20px;
+  font-size: 17px;
+  background-color: white;
+}
+
+.buttons :hover {
+  background-color: lightgrey;
+}
+
+.buttons-s {
+  background-color: black;
+  color: white;
+  margin: 5px;
+  padding: 8px;
+  border: 0;
+  border-radius: 20px;
+  font-size: 17px;
+}
+
+.buttons-s:hover {
+  background-color: lightgrey;
+  color: white;
+}
+
+.s-box {
+  display: flex;
+  position: absolute;
+  top: 80vh;
+  left: 25vw;
+  background-color: white;
+  padding: 8px;
+  border-radius: 35px;
+  align-items: center;
+  justify-content: center;
+}
+
+.lists li:hover {
+  background-color: black;
+  text-decoration-color: white;
+  transition: all 0.2s;
+}
+
+.lists li a:hover {
+  color: white;
+}
+
+.second-main-img {
+  padding-right: 5px;
+}
