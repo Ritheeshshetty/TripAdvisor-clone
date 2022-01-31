@@ -2,15 +2,21 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
-body {
+.intro {
   background: white;
   margin: 0 6vw;
   padding-top: 150px;
 }
 
-nav {
+.nav {
+  width: 100%;
   display: flex;
   justify-content: space-between;
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
 }
 .logo {
   font-size: 180%;
@@ -31,8 +37,10 @@ ul {
   display: flex;
   justify-content: space-between;
   width: 100%;
-  max-width: 100%;
+  /* max-width: 100%; */
   margin: 14px 0;
+  max-width: 100vw;
+  /* overflow: auto; */
 }
 .lists li {
   border: 1.9px solid black;
@@ -117,4 +125,146 @@ ul {
 
 .second-main-img {
   padding-right: 5px;
+}
+
+.menu {
+  display: none;
+}
+
+.search-img {
+  display: none;
+}
+
+/* @media (max-width: 600px) {
+  body {
+    padding-top: 15%;
+    margin: 0%;
+  }
+  .intro{
+    margin: 0;
+  }
+  .logo {
+    display: flex;
+    justify-content: center;
+    font-size: 150%;
+    padding-left: 35%;
+  }
+
+  .buttons {
+    display: none;
+  }
+  .menu {
+    display: contents;
+  }
+
+  .search-img {
+    display:contents;
+  }
+
+  .lists li {
+    padding: 12px 15px;
+    margin: 4px;
+    width: 6rem;
+    height: 1rem;
+  }
+
+  .main-image {
+    margin: 0;
+    width: 170%;
+    height: 200%;
+    max-width: 100vw;
+    object-fit: cover;
+  }
+  .s-box {
+    position: absolute;
+    top: 63vh;
+    left: 20vw;
+  }
+  .s-input {
+    padding: 20px;
+    width: 30vw;
+  }
+} */
+
+footer {
+  margin: 0%;
+  background-color: rgb(250, 239, 235);
+  width: 92%;
+  height: 100%;
+  padding: 5vw;
+  font-size: 90%;
+  display: flex;
+  justify-content: flex-start;
+}
+footer h2 {
+  font-size: 110%;
+  font-weight: lighter;
+}
+
+.left-foot {
+  display: flex;
+}
+
+.left-lists li a {
+  text-decoration: none;
+  font-weight: bolder;
+  color: black;
+}
+
+.item-foot {
+  padding: 12px;
+}
+
+.item-foot li a:hover {
+  text-decoration: underline;
+}
+
+.left-lists li {
+  list-style: none;
+}
+
+.foot-right {
+  display: flex;
+  flex-direction: column;
+  width: 50vh;
+}
+
+.foot-right p a {
+  text-decoration: none;
+  color: black;
+}
+
+.foot-right p a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* second logo */
+.second-logo h2 {
+  padding-top: 3rem;
+}
+
+/* first tour */
+.tours {
+  display: flex;
+  margin-left: 10px;
+  overflow-x: scroll;
+}
+
+.tours::-webkit-scrollbar {
+  display: none;
+}
+
+.tours p {
+  text-decoration: none;
+}
+
+.tours-first {
+  padding: 10px;
+  text-decoration: none;
+  list-style: none;
 }
