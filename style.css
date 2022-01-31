@@ -135,57 +135,6 @@ ul {
   display: none;
 }
 
-/* @media (max-width: 600px) {
-  body {
-    padding-top: 15%;
-    margin: 0%;
-  }
-  .intro{
-    margin: 0;
-  }
-  .logo {
-    display: flex;
-    justify-content: center;
-    font-size: 150%;
-    padding-left: 35%;
-  }
-
-  .buttons {
-    display: none;
-  }
-  .menu {
-    display: contents;
-  }
-
-  .search-img {
-    display:contents;
-  }
-
-  .lists li {
-    padding: 12px 15px;
-    margin: 4px;
-    width: 6rem;
-    height: 1rem;
-  }
-
-  .main-image {
-    margin: 0;
-    width: 170%;
-    height: 200%;
-    max-width: 100vw;
-    object-fit: cover;
-  }
-  .s-box {
-    position: absolute;
-    top: 63vh;
-    left: 20vw;
-  }
-  .s-input {
-    padding: 20px;
-    width: 30vw;
-  }
-} */
-
 footer {
   margin: 0%;
   background-color: rgb(250, 239, 235);
